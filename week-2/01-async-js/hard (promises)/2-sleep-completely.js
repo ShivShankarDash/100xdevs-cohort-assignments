@@ -5,6 +5,13 @@
  */
 
 function sleep(milliseconds) {
-}
-
-module.exports = sleep;
+    for (let i = 0; i < milliseconds * 1000; i++) {}
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve();
+      }, milliseconds);
+    });
+  }
+  
+  module.exports = sleep;
+  

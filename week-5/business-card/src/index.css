@@ -1,0 +1,19 @@
+.business_card {
+  width: 400px;
+  padding: 15px;
+  border-radius: 10px grey;
+  align-items: center;
+  box-shadow: 0 8px 8px -4px grey;
+  display: inline-flex;
+  
+}
+
+.social_media_btn {
+
+  background-color: #318CE7;
+  margin: 2px;
+  font-size: large;
+  color: white;
+  box-shadow: 0 4px 4px -4px;
+
+}

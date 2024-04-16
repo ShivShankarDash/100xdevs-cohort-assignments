@@ -5,6 +5,7 @@ class SurveyController {
     try {
       const surveys = await SurveyModel.find();
       res.status(200).json(surveys);
+      
     } catch (error) {
       res.status(500).json({ message: error.message });
     }
